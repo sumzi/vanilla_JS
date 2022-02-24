@@ -146,6 +146,35 @@ button:focus{
   animation-duration: var(--modal-duration);
 }
 
+.modal-header {
+  background: var(--primary-color);
+  color: #fff;
+  padding: 15px;
+}
+
+.modal-header h3 {
+  margin: 0;
+  border-bottom: 1px solid #333;
+}
+
+.modal-content {
+  padding: 20px;
+}
+
+.modal-form div {
+  margin: 15px 0;
+}
+
+.modal-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.modal-form .form-input {
+  padding: 8px;
+  width: 100%;
+}
+
 .close-btn{
   background: transparent;
   font-size: 25px;
