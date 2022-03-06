@@ -128,10 +128,10 @@ observer.observe(Array.from(document.getElementsByClassName("lazy")));
 
 ### reference
 
-- [Scroll Event]("http://yoonbumtae.com/?p=3599")
+- [Scroll Event](http://yoonbumtae.com/?p=3599)
 
-- [[MDN] Intersection Observer API]('https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API')
+- [MDN | Intersection Observer API](https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API)
 
-- [Intersection Observer로 무한 스크롤 구현하기]("https://velog.io/@yejinh/Intersection-Observer%EB%A1%9C-%EB%AC%B4%ED%95%9C-%EC%8A%A4%ED%81%AC%EB%A1%A4-%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0")
+- [Intersection Observer로 무한 스크롤 구현하기](https://velog.io/@yejinh/Intersection-Observer%EB%A1%9C-%EB%AC%B4%ED%95%9C-%EC%8A%A4%ED%81%AC%EB%A1%A4-%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0)
 
-- [Intersection Observer 간단 정리하기]('https://pks2974.medium.com/intersection-observer-%EA%B0%84%EB%8B%A8-%EC%A0%95%EB%A6%AC%ED%95%98%EA%B8%B0-fc24789799a3)
+- [Intersection Observer 간단 정리하기](https://pks2974.medium.com/intersection-observer-%EA%B0%84%EB%8B%A8-%EC%A0%95%EB%A6%AC%ED%95%98%EA%B8%B0-fc24789799a3)
