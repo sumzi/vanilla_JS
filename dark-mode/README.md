@@ -58,3 +58,7 @@ $checkbox.addEventListener("click", (e) => {
 localStorage.setItem("color-theme", "dark");
 localStorage.setItem("color-theme", "light");
 ```
+
+### reference
+
+[다크모드](https://blogpack.tistory.com/1117)
