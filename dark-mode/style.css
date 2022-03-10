@@ -1,0 +1,22 @@
+/* prefers-color-scheme */
+
+body {
+  color: white;
+  background: black;
+  margin: 0;
+}
+
+.lyrics{
+  padding: 30px;
+  text-align: center;
+}
+
+.dark{
+  color:black;
+  background: white;
+}
+
+
+.album{
+  width: 400px;
+}
