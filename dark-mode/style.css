@@ -1,8 +1,14 @@
-/* prefers-color-scheme */
+/* prefers-color-scheme 
+*/
+@media(prefers-color-scheme:light) {
+  body {
+    color: black;
+    background-color: white;
+  }
+}
+
 
 body {
-  color: white;
-  background: black;
   margin: 0;
 }
 
@@ -12,8 +18,8 @@ body {
 }
 
 .dark{
-  color:black;
-  background: white;
+  color:white;
+  background: black;
 }
 
 
