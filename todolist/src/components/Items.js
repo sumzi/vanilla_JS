@@ -7,13 +7,13 @@ export default class Items extends Component {
       <ul>
         ${filteredItems
           .map(
-            ({ seq, content, done }) => `
+            ({ seq, contents, done }) => `
           <li data-seq="${seq}">
             <input type='checkbox' class="toggleBox" ${done ? "checked" : ""}/>
             
             <label style="text-decoration:${
               done ? "line-through" : ""
-            }">${content}</label>
+            }">${contents}</label>
             <button class="deleteBtn">삭제</button>
           </li>
         `

@@ -8,8 +8,8 @@ export default class App extends Component {
     this.$state = {
       isFilter: 0,
       items: [
-        { seq: 1, content: "공부하기", done: false },
-        { seq: 2, content: "밥먹기", done: true },
+        { seq: 1, contents: "공부하기", done: false },
+        { seq: 2, contents: "밥먹기", done: true },
       ],
     };
   }
@@ -63,11 +63,11 @@ export default class App extends Component {
     );
   }
 
-  addItem(content) {
+  addItem(contents) {
     const { items } = this.$state;
     const seq = Math.max(...items.map((item) => item.seq)) + 1;
     this.setState({
-      items: [...items, { seq: seq, content: content, done: false }],
+      items: [...items, { seq: seq, contents: contents, done: false }],
     });
   }
 
